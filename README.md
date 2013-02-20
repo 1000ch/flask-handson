@@ -2,7 +2,7 @@
 
 ##About
 
-Implementation of [flask-handson](http://methane.github.com/flask-handson/) by Naoki Inada
+Implementation of [flask-handson](http://methane.github.com/flask-handson/) by [Naoki Inada](http://github.com/methane)
 
 ##Introduction
 
