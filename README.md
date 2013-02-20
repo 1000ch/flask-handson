@@ -17,23 +17,23 @@ FlaskがPython3.3に対応してない説とかがあって、
 
 ###distributeをインストールする
 
-[python-distribute.org](http://python-distribute.org/)
++ [python-distribute.org](http://python-distribute.org/)
 
     curl -O http://python-distribute.org/distribute_setup.py
     
     python ./distribute_setup.py
-
+    
     easy_install --help
 
 ###virtualenvをインストールする
 
-[virtualenv.org](http://www.virtualenv.org/)
++ [virtualenv.org](http://www.virtualenv.org/)
 
     easy_install virtualenv
 
 ###pipをインストールする
 
-[pip](http://www.pip-installer.org/)
++ [pip](http://www.pip-installer.org/)
 
 pipはPythonのパッケージをインストールしてくれる。  
 
@@ -60,13 +60,17 @@ pipがなかったらインストールする。
 
 ###Flaskをインストールする
 
-[Flask](http://flask.pocoo.org/)
++ [Flask](http://flask.pocoo.org/)
 
 Flaskはpythonで実行されるマイクロフレームワーク。  
 システムにインストールされたpython環境にではなく  
 別途用意した環境をアクティベートし、インストールする。  
 
     (pythonenv) pip install Flask
+
+##Implementation
+
+###hello.py
 
 
 
