@@ -78,6 +78,17 @@ Flaskはpythonで実行されるマイクロフレームワーク。
 
 ###hello.py
 
+virtualenvで作成したpython環境にFlaskをインストールしてあるので  
+その環境をアクティベートしない状態では実行出来ない。  
 
+    Traceback (most recent call last):
+      File "hello.py", line 1, in <module>
+        import flask
+    ImportError: No module named flask
 
+アクティベートしてから再度実行し、http://localhost:5000/を確認。
 
+     * Running on http://127.0.0.1:5000/
+     * Restarting with reloader
+
+###Flask-SQLAlchemy
