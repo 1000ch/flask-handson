@@ -3,7 +3,7 @@ from flaskr import db
 from sqlalchemy import *
 
 class Entry(db.Model):
-    u "ブログエントリ"
+    u"ブログエントリ"
     id = Column(Integer, primary_key=True)
     title = Column(Text)
     text = Column(Text)
