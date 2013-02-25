@@ -92,3 +92,12 @@ virtualenvで作成したpython環境にFlaskをインストールしてある�
      * Restarting with reloader
 
 ###Flask-SQLAlchemy
+
+DB周りのFlask拡張ライブラリをインストールする。  
+
+###構成
+
+[お手本通り](http://methane.github.com/flask-handson/flaskr.html#id2)に構成する。  
+書き出し先のhtmlとcss。modelにはデータモデルの定義。  
+viewには表示と更新の関数を用意し、ぉれに対するURLマッピングを行っている模様。  
+全然関係ないけど、実行後は`file.py`のコンパイル結果らしき`file.pyc`というファイルが生成される。  
