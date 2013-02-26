@@ -9,7 +9,7 @@ def show_entries():
 
 @app.route('/add', methods=['POST'])
 def add_entry():
-    entry = Entry(title=flask.request.from['title'], text=flask.request.from['text'])
+    entry = Entry(title=flask.request.form['title'], text=flask.request.form['text'])
     db.session.add(entry)
     db.session.commit()
     flask.flash('New entry was successfully posted')
