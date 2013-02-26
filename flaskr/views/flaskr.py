@@ -14,3 +14,9 @@ def add_entry():
     db.session.commit()
     flask.flash('New entry was successfully posted')
     return flask.redirect(flask.url_for('show_entries'))
+
+@app.route('/entry/<int:d>')
+def show_entry(id):
+    entry = Entry.get_or_404(id=id)
+    flaskr.render_template('entry.html', entry=entry)
+
