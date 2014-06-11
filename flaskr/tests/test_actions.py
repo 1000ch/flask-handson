@@ -15,5 +15,5 @@ def test_post_entry():
     with app.test_request_context():
         assert Entry.query.count() == 1
         entry = Entry.query.get(1)
-        entry.title = 'test title 1'
-        entry.text = 'test text 1'
+        assert entry.title == 'test title 1'
+        assert entry.text == 'test text 1'
